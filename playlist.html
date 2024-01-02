@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlists Prontas de Louvores</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f5f5f5;
+        }
+
+        .playlist-container {
+            max-width: 300px;
+            margin: auto;
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        .copy-button {
+            display: block;
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Playlists</h1>
+            <p class="lead">Essas são algumas playlists predefinidas para facilitar na escolha de repertórios!</p>
+            <a href="index.html" class="btn btn-light mt-3">Voltar para a Página Inicial</a>
+        </div>
+    </header>
+
+    <section class="py-4 py-md-5" id="louvores">
+        <div class="container">
+            <h2 class="text-center mb-4">Playlists de Músicas para Grupos de Orações</h2>
+            <div class="row">
+
+                <!-- Playlist 1 - Louvores -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mb-4 shadow playlist-container">
+                        <div class="card-body">
+                            <h5 class="card-title">Playlist 1</h5>
+                            <p class="font-weight-bold">Louvor</p>
+                            <ul class="list-unstyled">
+                                <li>Bom é louvar (D)</li>
+                                <li>Quando meu vaso transborda (D)</li>
+                                <li>Vento do espírito (G)</li>
+                                <li>Celebrai a Cristo (D)</li>
+                                <li>Música de Louvor 5</li>
+                                <li>Coração Adorador (E)</li>
+                            </ul>
+                            <p class="font-weight-bold mt-3">Espírito</p>
+                            <ul class="list-unstyled">
+                                <li>Shekinah (D)</li>
+                                <li>Incendeia minha alma (C)</li>
+                            </ul>
+                            <p class="font-weight-bold mt-3">Ofertório</p>
+                            <ul class="list-unstyled">
+                                <li>Um coração para amar (G)</li>
+                            </ul>
+                            <button class="btn btn-primary copy-button" onclick="copyToClipboard(this)">Copiar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mb-4 shadow playlist-container">
+                        <div class="card-body">
+                            <h5 class="card-title">Playlist 2</h5>
+                            <p class="font-weight-bold">Louvor</p>
+                            <ul class="list-unstyled">
+                                <li>Olha você não sabe (D)</li>
+                                <li>Minhas mãos estão cheias (D)</li>
+                                <li>Vem cá, vem ver (E)</li>
+                                <li>O nome de Jesus é doce (D)</li>
+                                <li>Eu preciso de você (D)</li>
+                                <li>Chuva de graça (D)</li>
+                            </ul>
+                            <p class="font-weight-bold mt-3">Espírito</p>
+                            <ul class="list-unstyled">
+                                <li>Poderoso Deus (C)</li>
+                                <li>Incendeia minha alma (C)</li>
+                            </ul>
+                            <p class="font-weight-bold mt-3">Ofertório</p>
+                            <ul class="list-unstyled">
+                                <li>Oferta de amor (G)</li>
+                            </ul>
+                            <button class="btn btn-primary copy-button" onclick="copyToClipboard(this)">Copiar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mb-4 shadow playlist-container">
+                        <div class="card-body">
+                            <h5 class="card-title">Playlist 3</h5>
+                            <p class="font-weight-bold">Louvor</p>
+                            <ul class="list-unstyled">
+                                <li>Reunidos aqui (G)</li>
+                                <li>Deus é Dez (G) </li>
+                                <li>Obra Nova (D)</li>
+                                <li>Presença Divina (D)</li>
+                                <li>Estica o braço e pula (E)</li>
+                                <li>Enviai (C)</li>
+                            </ul>
+                            <p class="font-weight-bold mt-3">Espírito</p>
+                            <ul class="list-unstyled">
+                                <li>Como em pentecostes (G)</li>
+                                <li>Sopra em nós (C/Am)</li>
+                            </ul>
+                            <p class="font-weight-bold mt-3">Ofertório</p>
+                            <ul class="list-unstyled">
+                                <li>Pão e vinho (A)</li>
+                            </ul>
+                            <button class="btn btn-primary copy-button" onclick="copyToClipboard(this)">Copiar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mb-4 shadow playlist-container">
+                        <div class="card-body">
+                            <h5 class="card-title">Playlist 4</h5>
+                            <p class="font-weight-bold">Louvor</p>
+                            <ul class="list-unstyled">
+                                <li>Bom é agradável (G)</li>
+                                <li>Olaria de Deus (D)</li>
+                                <li>Aleluia (C)</li>
+                                <li>Anjos de Deus (E)</li>
+                                <li>Nosso general é Cristo (Bm) </li>
+                                <li>Derrama o teu Amor aqui (G)</li>
+                            </ul>
+                            <p class="font-weight-bold mt-3">Espírito</p>
+                            <ul class="list-unstyled">
+                                <li>Eu navegarei (Am)</li>
+                                <li>Queima de novo (G#m)</li>
+                            </ul>
+                            <p class="font-weight-bold mt-3">Ofertório</p>
+                            <ul class="list-unstyled">
+                                <li>Teu sou (E)</li>
+                            </ul>
+                            <button class="btn btn-primary copy-button" onclick="copyToClipboard(this)">Copiar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mb-4 shadow playlist-container">
+                        <div class="card-body">
+                            <h5 class="card-title">Playlist 5</h5>
+                            <p class="font-weight-bold">Louvor</p>
+                            <ul class="list-unstyled">
+                                <li>Fico feliz (C)</li>
+                                <li>Deus é 10 (D)</li>
+                                <li>Pescador de Cristo (E)</li>
+                                <li>Celebrai (G)</li>
+                                <li>Dança do avivamento (D)</li>
+                                <li>Mas os que esperam" (G)</li>
+                            </ul>
+                            <p class="font-weight-bold mt-3">Espírito</p>
+                            <ul class="list-unstyled">
+                                <li>Move Te em mim (C)</li>
+                                <li>Vinde espírito santo (C)</li>
+                            </ul>
+                            <p class="font-weight-bold mt-3">Ofertório</p>
+                            <ul class="list-unstyled">
+                                <li>Um coração para amar (G)</li>
+                            </ul>
+                            <button class="btn btn-primary copy-button" onclick="copyToClipboard(this)">Copiar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mb-4 shadow playlist-container">
+                        <div class="card-body">
+                            <h5 class="card-title">Playlist 6</h5>
+                            <p class="font-weight-bold">Louvor</p>
+                            <ul class="list-unstyled">
+                                <li>Reunidos aqui (G)</li>
+                                <li>Catira (C)</li>
+                                <li>Quem me tocou (D)</li>
+                                <li>Minhas mãos estão cheias (D)</li>
+                                <li>Obra nova (D)</li>
+                                <li>Vem, vem, vem Espírito Santo (G)</li>
+                            </ul>
+                            <p class="font-weight-bold mt-3">Espírito</p>
+                            <ul class="list-unstyled">
+                                <li>Sopra em nós (C/Am)</li>
+                                <li>Queima de novo (B) </li>
+                            </ul>
+                            <p class="font-weight-bold mt-3">Ofertório</p>
+                            <ul class="list-unstyled">
+                                <li>Estar em tuas mãos (Em)</li>
+                            </ul>
+                            <button class="btn btn-primary copy-button" onclick="copyToClipboard(this)">Copiar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mb-4 shadow playlist-container">
+                        <div class="card-body">
+                            <h5 class="card-title">Playlist 7</h5>
+                            <p class="font-weight-bold">Louvor</p>
+                            <ul class="list-unstyled">
+                                <li>Só porque você veio (D)</li>
+                                <li>Canta povo de Deus (G)</li>
+                                <li>Vamos cantar (G)</li>
+                                <li>Quero Louvar-te (E)</li>
+                                <li>Já chegou (D)</li>
+                                <li>Derrama o teu amor aqui (G)</li>
+                            </ul>
+                            <p class="font-weight-bold mt-3">Espírito</p>
+                            <ul class="list-unstyled">
+                                <li>Como em pentecostes (G)</li>
+                                <li>Espírito de amor (C/Am)</li>
+                            </ul>
+                            <p class="font-weight-bold mt-3">Ofertório</p>
+                            <ul class="list-unstyled">
+                                <li>Minha essência - É tudo que tenho (C)</li>
+                            </ul>
+                            <button class="btn btn-primary copy-button" onclick="copyToClipboard(this)">Copiar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mb-4 shadow playlist-container">
+                        <div class="card-body">
+                            <h5 class="card-title">Playlist 8</h5>
+                            <p class="font-weight-bold">Louvor</p>
+                            <ul class="list-unstyled">
+                                <li>Aperte a Minha Mão (G)</li>
+                                <li>Passa fogo (D)</li>
+                                <li>Eu quero estar em tuas mãos (E)</li>
+                                <li>Presença divina (D)</li>
+                                <li>Dança do Avivamento (D)/li>
+                                <li>Derrama o teu amor aqui (G)</li>
+                            </ul>
+                            <p class="font-weight-bold mt-3">Espírito</p>
+                            <ul class="list-unstyled">
+                                <li>Refrigera minha alma (E)</li>
+                                <li>Como é bom sentir (G)</li>
+                            </ul>
+                            <p class="font-weight-bold mt-3">Ofertório</p>
+                            <ul class="list-unstyled">
+                                <li>Teu sou (E)</li>
+                            </ul>
+                            <button class="btn btn-primary copy-button" onclick="copyToClipboard(this)">Copiar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mb-4 shadow playlist-container">
+                        <div class="card-body">
+                            <h5 class="card-title">Playlist 9</h5>
+                            <p class="font-weight-bold">Louvor</p>
+                            <ul class="list-unstyled">
+                                <li>Reunidos aqui (G)</li>
+                                <li>Essa é a gente que louva (D)</li>
+                                <li>Estica o braço e pula (E)</li>
+                                <li>Quando meu vaso transborda (D)</li>
+                                <li>Vento do espírito (G)</li>
+                                <li>Coração Adorador (E)</li>
+                            </ul>
+                            <p class="font-weight-bold mt-3">Espírito</p>
+                            <ul class="list-unstyled">
+                                <li>Poderoso Deus (C)</li>
+                                <li>Vem oh Água Viva (A/D)</li>
+                            </ul>
+                            <p class="font-weight-bold mt-3">Ofertório</p>
+                            <ul class="list-unstyled">
+                                <li>Estar em tuas mãos (Em)</li>
+                            </ul>
+                            <button class="btn btn-primary copy-button" onclick="copyToClipboard(this)">Copiar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mb-4 shadow playlist-container">
+                        <div class="card-body">
+                            <h5 class="card-title">Playlist 10</h5>
+                            <p class="font-weight-bold">Louvor</p>
+                            <ul class="list-unstyled">
+                                <li>Vem amigo vem (E)</li>
+                                <li>Catira (C)</li>
+                                <li>Bom é louvar (D)</li>
+                                <li>Dança da amizade (D)</li>
+                                <li>Passeio de caranguejo (D)</li>
+                                <li>O Senhor é Rei (Em)</li>
+                            </ul>
+                            <p class="font-weight-bold mt-3">Espírito</p>
+                            <ul class="list-unstyled">
+                                <li>Shekinah (D)</li>
+                                <li>O céu se abre (C)</li>
+                            </ul>
+                            <p class="font-weight-bold mt-3">Ofertório</p>
+                            <ul class="list-unstyled">
+                                <li>Pão e vinho (A)</li>
+                            </ul>
+                            <button class="btn btn-primary copy-button" onclick="copyToClipboard(this)">Copiar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mb-4 shadow playlist-container">
+                        <div class="card-body">
+                            <h5 class="card-title">Playlist 11</h5>
+                            <p class="font-weight-bold">Louvor</p>
+                            <ul class="list-unstyled">
+                                <li>Quero te dar a paz (G)</li>
+                                <li>A cara do pai (G)</li>
+                                <li>Passeio de caranguejo (D)</li>
+                                <li>Pescador de Cristo (E)</li>
+                                <li>Louvar Jesus é bom demais (F#m) </li>
+                                <li>Derrama o teu amor aqui (G)</li>
+                            </ul>
+                            <p class="font-weight-bold mt-3">Espírito</p>
+                            <ul class="list-unstyled">
+                                <li>Eu navegarei (Am)</li>
+                                <li>Sopra em nós (Am)</li>
+                            </ul>
+                            <p class="font-weight-bold mt-3">Ofertório</p>
+                            <ul class="list-unstyled">
+                                <li>Em Teu altar (E)</li>
+                            </ul>
+                            <button class="btn btn-primary copy-button" onclick="copyToClipboard(this)">Copiar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mb-4 shadow playlist-container">
+                        <div class="card-body">
+                            <h5 class="card-title">Playlist 12</h5>
+                            <p class="font-weight-bold">Louvor</p>
+                            <ul class="list-unstyled">
+                                <li>Shalom, Te Amo (G)</li>
+                                <li>Olha você não sabe (D)</li>
+                                <li>Molim Molim (G)</li>
+                                <li>Quero louvar-te (E)</li>
+                                <li>Anjos de Deus (E)</li>
+                                <li>Canta povo de Deus (G)</li>
+                            </ul>
+                            <p class="font-weight-bold mt-3">Espírito</p>
+                            <ul class="list-unstyled">
+                                <li>Espírito, enche a minha vida (E)</li>
+                                <li>Move te em mim (C)</li>
+                            </ul>
+                            <p class="font-weight-bold mt-3">Ofertório</p>
+                            <ul class="list-unstyled">
+                                <li>Minha essencial - É tudo que tenho (C)</li>
+                            </ul>
+                            <button class="btn btn-primary copy-button" onclick="copyToClipboard(this)">Copiar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mb-4 shadow playlist-container">
+                        <div class="card-body">
+                            <h5 class="card-title">Playlist 13</h5>
+                            <p class="font-weight-bold">Louvor</p>
+                            <ul class="list-unstyled">
+                                <li>Shalom, Te Amo (G)</li>
+                                <li>Passa Fogo (D)</li>
+                                <li>O Segredo da Vida (G)</li>
+                                <li>O Senhor é Rei (Em)</li>
+                                <li>Pororó (Am7/Dm7)</li>
+                                <li>Mais e mais louvor (Bb)</li>
+                            </ul>
+                            <p class="font-weight-bold mt-3">Espírito</p>
+                            <ul class="list-unstyled">
+                                <li>Refrigera minha alma (E) </li>
+                                <li>Poderoso Deus (C)</li>
+                            </ul>
+                            <p class="font-weight-bold mt-3">Ofertório</p>
+                            <ul class="list-unstyled">
+                                <li>Em teu altar (E)</li>
+                            </ul>
+                            <button class="btn btn-primary copy-button" onclick="copyToClipboard(this)">Copiar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mb-4 shadow playlist-container">
+                        <div class="card-body">
+                            <h5 class="card-title">Playlist 14</h5>
+                            <p class="font-weight-bold">Louvor</p>
+                            <ul class="list-unstyled">
+                                <li>Quero Te Dar a Paz (G)</li>
+                                <li>Essa é a Gente que Louva ao Senhor (D)</li>
+                                <li>O Segredo da Vida (G)</li>
+                                <li>Pororó (Am7/Dm7)</li>
+                                <li>Estica o Braço e Pula (E)</li>
+                                <li>Templo Vivo (D)</li>
+                            </ul>
+                            <p class="font-weight-bold mt-3">Espírito</p>
+                            <ul class="list-unstyled">
+                                <li>Queima de Novo (G#m)</li>
+                                <li>Shekinah (D)</li>
+                            </ul>
+                            <p class="font-weight-bold mt-3">Ofertório</p>
+                            <ul class="list-unstyled">
+                                <li>Estar em tuas mãos (Em)</li>
+                            </ul>
+                            <button class="btn btn-primary copy-button" onclick="copyToClipboard(this)">Copiar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mb-4 shadow playlist-container">
+                        <div class="card-body">
+                            <h5 class="card-title">Playlist 15</h5>
+                            <p class="font-weight-bold">Louvor</p>
+                            <ul class="list-unstyled">
+                                <li>Aperte a Minha Mão (G)</li>
+                                <li>Dança da Amizade (D)</li>
+                                <li>Deus Quero Louvar-te (E)</li>
+                                <li>Desemborca o Vaso (D)</li>
+                                <li>Molin Molin (G)</li>
+                                <li>Chuva de Graça (D)</li>
+                            </ul>
+                            <p class="font-weight-bold mt-3">Espírito</p>
+                            <ul class="list-unstyled">
+                                <li>Mergulhar nas Profundezas</li>
+                                <li>Incendeia minh`alma (C)</li>
+                            </ul>
+                            <p class="font-weight-bold mt-3">Ofertório</p>
+                            <ul class="list-unstyled">
+                                <li>Oferta de Amor (G)</li>
+                            </ul>
+                            <button class="btn btn-primary copy-button" onclick="copyToClipboard(this)">Copiar</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Adicione mais playlists de louvores conforme necessário -->
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-primary text-white text-center py-4" id="contato">
+        <div class="container">
+            &copy; 2023 Desenvolvido por José Manoel
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        function copyToClipboard(button) {
+            var card = button.parentElement;
+            var textToCopy = "";
+
+            textToCopy += card.querySelector(".card-title").textContent.trim() + "\n\n";
+
+            card.querySelectorAll("ul").forEach(function (ul) {
+                textToCopy += ul.previousElementSibling.textContent.trim() + "\n";
+                ul.querySelectorAll("li").forEach(function (li) {
+                    textToCopy += "- " + li.textContent.trim() + "\n";
+                });
+                textToCopy += "\n"; // Adiciona espaçamento entre os campos
+            });
+
+            var textArea = document.createElement("textarea");
+            textArea.value = textToCopy;
+            document.body.appendChild(textArea);
+            textArea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textArea);
+            button.textContent = "Copiado!";
+
+            // Restaura o texto do botão para "Copiar" após 4 segundos
+            setTimeout(function () {
+                button.textContent = "Copiar";
+            }, 4000);
+        }
+    </script>
+</body>
+
+</html>
